@@ -11,10 +11,10 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          "header-banner": "url('/LOGO-banner.jpg') ",
-          "bg-aboutUs" : "url('/bg-aboutUs2.jpeg')"
+        "header-banner": "url('/LOGO-banner.jpg') ",
+        "bg-aboutUs": "url('/bg-aboutUs2.jpeg')"
       },
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 };

@@ -21,9 +21,12 @@ export default function aboutUs() {
                 <div className="relative flex justify-center lg:hidden">
                     <img src="SERVICE1.jpeg" className="rounded-lg h-[250px]" />
                 </div>
-                <button className=" bg-[#373739] text-[#c1a161] px-8 py-4 rounded-full relative">
-                    <Link href="/">Regresar</Link>
-                </button>
+                <div className="flex justify-center items-center">
+                    <button className=" bg-[#373739] text-[#c1a161] px-8 py-4 rounded-full relative">
+                        <Link href="/">Regresar</Link>
+                    </button>
+                </div>
+
             </div>
         </div>
 
