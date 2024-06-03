@@ -2,8 +2,6 @@
 export default function Home() {
   return (
     <>
-      {/* <div className="bg-bg-aboutUs bg-no-repeat bg-cover opacity-50 h-[100%] relative">
-      </div> */}
       <div className="mt-16 sm:mt-20 relative bg-black">
         <div className="w-full min-h-64 bg-black flex justify-center items-center">
           <img src="/caraLogo.jpeg" className="h-[200px] hidden lg:block" />

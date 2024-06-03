@@ -6,13 +6,13 @@ export default function Header() {
       <nav className="flex h-16 items-center justify-center">
         <ul className="hidden space-x-4 font-bold lg:flex ">
           <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/aboutUs">¿Quienes somos?</Link>
+            <Link href="/nosotros">¿Quienes somos?</Link>
           </li>
           <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/mvv">Nuestros valores</Link>
+            <Link href="/valores">Nuestros valores</Link>
           </li>
           <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/">Servicios</Link>
+            <Link href="/servicios">Servicios</Link>
           </li>
           <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
             <Link href="/">Productos</Link>

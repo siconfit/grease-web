@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function mvv() {
+export default function valores() {
   return (
-    <div className="relative py-16 text-[#c1a161]">
-      <div className="mx-auto grid max-w-6xl grid-cols-3 gap-32">
+    <div className="text-md relative py-16 text-[#c1a161] lg:text-xl">
+      <div className="mx-12 grid max-w-7xl grid-cols-1 gap-16 md:grid-cols-3 lg:gap-28 xl:mx-auto">
         <div className="flex flex-col items-center text-center">
           <p className="rounded-xl bg-[#373739] p-5">
             <b>MISIÓN</b>
@@ -36,10 +36,11 @@ export default function mvv() {
           </p>
           <div className="mt-8 flex h-full w-full items-center justify-center rounded-xl bg-[#373739] p-5">
             <ul>
-              <li>EXCELENCIA</li>
-              <li>PUNTUALIDAD</li>
-              <li>HONESTIDAD</li>
-              <li>INTEGRIDAD</li>
+              <li>Calidad</li>
+              <li>Garantía</li>
+              <li>Diseño</li>
+              <li>Exclusividad</li>
+              <li>Durabilidad</li>
             </ul>
           </div>
         </div>
