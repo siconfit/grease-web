@@ -1,0 +1,221 @@
+[
+    {
+        "title": "MANICURE",
+        "description": "Cada día es más sencillo lucir una manicura perfecta que aguante intacta durante más tiempo y con un coste menor. Entre los métodos más eficaces para conseguir unas uñas envidiables está la manicura permanente, con una duración de entre 2 y 3 semanas.",
+        "services": [
+            {
+                "name": "Manicure tradicional",
+                "price": "$ 5.00"
+            },
+            {
+                "name": "Manicure express",
+                "price": "$ 3.00"
+            },
+            {
+                "name": "Manicure permanente",
+                "price": "$ 7.00"
+            },
+            {
+                "name": "Manicure acrilico",
+                "price": "$ 15.00"
+            },
+            {
+                "name": "Manicure polygel",
+                "price": "$ 15.00"
+            }
+        ],
+        "imageURL": "SERVICE1.jpeg"
+    },
+    {
+        "title": "CORTES CABALLERO",
+        "description": "Los precios van desde $5.00, adicional shampoo",
+        "services": [
+            {
+                "name": "Tradicional",
+                "price": ""
+            },
+            {
+                "name": "Texturizado",
+                "price": ""
+            },
+            {
+                "name": "Sombreado",
+                "price": ""
+            },
+            {
+                "name": "etc.",
+                "price": ""
+            }
+        ],
+        "imageURL": "SERVICE2.jpeg"
+    },
+    {
+        "title": "DAMAS",
+        "description": "",
+        "services": [
+            {
+                "name": "Tintes",
+                "price": "Desde $ 25.00"
+            },
+            {
+                "name": "Batayage",
+                "price": "Desde $ 40.00"
+            },
+            {
+                "name": "Cortes",
+                "price": "Desde $ 5.00"
+            },
+            {
+                "name": "Colorimetría",
+                "price": ""
+            },
+            {
+                "name": "Otros",
+                "price": ""
+            }
+        ],
+        "imageURL": "SERVICE3.jpeg"
+    },
+    {
+        "title": "TRATAMIENTOS",
+        "description": "",
+        "services": [
+            {
+                "name": "Hidratación",
+                "price": "Desde $ 15.00"
+            },
+            {
+                "name": "Cirugia capilar",
+                "price": "Desde $ 20.00"
+            },
+            {
+                "name": "Botox",
+                "price": "Desde $ 20.00"
+            },
+            {
+                "name": "Nutrición intensiva",
+                "price": "Desde $ 20.00"
+            },
+            {
+                "name": "Keratina",
+                "price": "Desde $ 55.99"
+            }
+        ],
+        "imageURL": "SERVICE4.jpeg"
+    },
+    {
+        "title": "CEJAS",
+        "description": "El diseño de cejas es el proceso de rediseñar la forma y la densidad de las cejas de acuerdo con la forma de la cara de la persona. Hay que elegir la forma de ceja ideal en función de la edad, estilo, personalidad y rasgos faciales para mejorar mejor la apariencia.",
+        "services": [
+            {
+                "name": "Cejas laminadas con visaje",
+                "price": "$ 10.00"
+            },
+            {
+                "name": "Cejas laminadas normal",
+                "price": "$ 7.00"
+            },
+            {
+                "name": "Cejas con henna",
+                "price": "$ 5.00"
+            },
+            {
+                "name": "Diseño de cejas",
+                "price": "$ 3.00"
+            }
+        ],
+        "imageURL": "SERVICE5.jpeg"
+    },
+    {
+        "title": "PESTAÑAS",
+        "description": "El Diseño de Pestañas es la clave para realzar la mirada. Es imposible negar su poder para intensificar el rostro, y lo mejor es que se puede lograr de distintas formas según las facciones faciales o el tipo de párpado.",
+        "services": [
+            {
+                "name": "Volumen 3D",
+                "price": "$ 25.00"
+            },
+            {
+                "name": "Volumen Ruso",
+                "price": "$ 20.00"
+            },
+            {
+                "name": "Pestañas pelo a pelo",
+                "price": "$ 20.00"
+            },
+            {
+                "name": "Pestañas corridas",
+                "price": "$ 10.00"
+            },
+            {
+                "name": "Lifting efectrimel",
+                "price": "$ 10.00"
+            },
+            {
+                "name": "Lifting normal",
+                "price": "$ 7.00"
+            }
+        ],
+        "imageURL": "SERVICE6.jpeg"
+    },
+    {
+        "title": "MAQUILLAJE PROFESIONAL",
+        "description": "Nuestra maquilladora profesional es eso mismo, profesionales, y como tal demustra una imagen seria y comprometida en todo momento, cuidar la puntualidad y el trato con el cliente en el momento de acordar el trabajo a realizar, y responder de manera adecuada ante cualquier problema que pueda surgir.",
+        "services": [
+            {
+                "name": "Maquillaje",
+                "price": "Desde $ 20.00"
+            }
+        ],
+        "imageURL": "SERVICE1.jpeg"
+    },
+    {
+        "title": "MANICURE",
+        "description": "Ofertamos este servicio en express, tradicional permanente, acrílico, polygel, ponemos a tres expertas que desarrollan el trabajo en uñas desarrollando la perfección en cada uno de los diseños.",
+        "services": [
+            {
+                "name": "Manicure tradicional",
+                "price": "$ 5.00"
+            },
+            {
+                "name": "Manicure express",
+                "price": "$ 3.00"
+            }
+        ],
+        "imageURL": "SERVICE2.jpeg"
+    },
+    {
+        "title": "DEPILACIONES",
+        "description": "La depilación (depilación química) consiste en eliminar la parte visible del pelo. * La epilación (depilación física) elimina el pelo desde la raíz. No obstante, la generalización del término depilación ha hecho que no se haga ninguna distinción entre ambos métodos, por lo que lo utilizaremos para referirnos a ambos.",
+        "services": [
+            {
+                "name": "Pierna completa",
+                "price": "$ 10.00"
+            },
+            {
+                "name": "Media pierna",
+                "price": "$ 6.00"
+            },
+            {
+                "name": "Bikini completo",
+                "price": "$ 6.00"
+            },
+            {
+                "name": "Rostro/pelling",
+                "price": "$ 5.00"
+            },
+            {
+                "name": "Axilas",
+                "price": "$ 3.00"
+            },
+            {
+                "name": "Bigote/boso",
+                "price": "$ 3.00"
+            },
+            {
+                "name": "Cejas",
+                "price": "$ 3.00"
+            }
+        ],
+        "imageURL": "SERVICE3.jpeg"
+    }
+]
