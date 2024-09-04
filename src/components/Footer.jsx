@@ -5,19 +5,19 @@ export default function Footer() {
         <div className="flex flex-col items-center border-t-2 border-[#000]">
           <h1 className="text-auto my-2 font-bold md:text-3xl">INSTAGRAM</h1>
           <a href="https://www.instagram.com/grease_spa2024/">Síguenos</a>
-          <img src="hand-fill.svg" />
+          <img src="hand-fill.svg" alt="hand svg" />
         </div>
         <div className="flex flex-col items-center border-t-2 border-[#000]">
           <h1 className="text-auto my-2 font-bold md:text-3xl">FACEBOOK</h1>
           <a href="https://www.facebook.com/profile.php?id=61559385695955">
             Encuentra novedades
           </a>
-          <img src="hand-fill.svg" />
+          <img src="hand-fill.svg" alt="hand svg" />
         </div>
         <div className="flex flex-col items-center border-t-2 border-[#000]">
           <h1 className="text-auto my-2 font-bold md:text-3xl">TIKTOK</h1>
           <a href="https://www.tiktok.com/@grease.nails.alta">Da me encanta</a>
-          <img src="hand-fill.svg" />
+          <img src="hand-fill.svg" alt="hand svg" />
         </div>
       </div>
     </footer>

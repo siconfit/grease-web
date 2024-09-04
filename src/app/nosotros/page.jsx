@@ -14,30 +14,35 @@ export default function sorbreNosotros() {
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
                 <img
                   src="SERVICE1.jpeg"
+                  alt="Peluqueria Ibarra"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
                 <img
                   src="aux1.jpeg"
+                  alt="Uñas manos Ibarra"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
                 <img
                   src="aux2.jpeg"
+                  alt="Uñas pies Ibarra"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
                 <img
                   src="aux3.jpeg"
+                  alt="Facial Ibarra"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
               <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
                 <img
                   src="SERVICE5.jpeg"
+                  alt="Masajes Ibarra"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>

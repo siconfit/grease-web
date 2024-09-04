@@ -39,7 +39,7 @@ body::before {
   width: 100%;
   height: 100%;
   opacity: 0.6;
-  background-image: url("/fondo6.jpg");
+  background-image: url("/fondoResize.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

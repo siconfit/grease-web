@@ -8,9 +8,9 @@ export default function Home() {
     <>
       <div className="mt-16 sm:mt-20 relative bg-black">
         <div className="w-full min-h-64 bg-black flex justify-center items-center">
-          <img src="/caraLogo.jpeg" className="h-[200px] hidden lg:block" />
-          <img src="/logoSolo.jpeg" />
-          <img src="/caraLogo.jpeg" className="h-[200px] hidden md:block" />
+          <img src="/caraLogo.jpeg" alt="Emblema Rey y Reina" className="h-[200px] hidden lg:block" />
+          <img src="/logoSolo.jpeg" alt="Logo de Grease Nails Spa y Alta Peluqueria" />
+          <img src="/caraLogo.jpeg" alt="Emblema Rey y Reina" className="h-[200px] hidden md:block" />
         </div>
 
       </div>
@@ -40,18 +40,21 @@ export default function Home() {
                   <div className="relative aspect-[9/10] w-16 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-64 sm:rounded-2xl dark:bg-zinc-800">
                     <img
                       src="instagramQR.png"
+                      alt="Instagram QR"
                       className="absolute inset-0 h-full w-full object-contain"
                     />
                   </div>
                   <div className="relative aspect-[9/10] w-16 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-64 sm:rounded-2xl dark:bg-zinc-800">
                     <img
                       src="tiktokQR.png"
+                      alt="TikTok QR"
                       className="absolute inset-0 h-full w-full object-contain"
                     />
                   </div>
                   <div className="relative aspect-[9/10] w-16 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-64 sm:rounded-2xl dark:bg-zinc-800">
                     <img
                       src="facebookQR.png"
+                      alt="Facebook QR"
                       className="absolute inset-0 h-full w-full object-contain"
                     />
                   </div>
