@@ -31,7 +31,7 @@ export default function Header() {
           </li> */}
         </ul>
         <div className="flex flex-col items-center justify-center space-y-3 py-5 lg:hidden">
-          <button onClick={() => setOpen(!isOpen)}>
+          <button aria-label="header button" onClick={() => setOpen(!isOpen)}>
             <svg
               className="h-8 w-8 text-[#19191a]"
               data-slot="icon"
