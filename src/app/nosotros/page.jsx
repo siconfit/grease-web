@@ -1,11 +1,12 @@
 import HomeButton from "@/components/HomeButton";
+import MisionVision from "@/components/MisionVision";
+import Valores from "@/components/Valores";
 
 export default function sorbreNosotros() {
   return (
     <>
-      <HomeButton />
-      <div className="mx-auto max-w-7xl">
-        <div className="relative flex flex-col items-center justify-center overflow-hidden py-16 sm:overflow-visible">
+      <div className="relative mx-auto mt-8 max-w-5xl py-16">
+        <div className=" flex flex-col items-center justify-center overflow-hidden sm:overflow-visible">
           <h1 className="text-center text-5xl font-bold text-black sm:text-7xl">
             ¿Quienes somos?
           </h1>
@@ -64,6 +65,8 @@ export default function sorbreNosotros() {
           </div>
         </div>
       </div>
+      <MisionVision />
+      <Valores />
     </>
   );
 }

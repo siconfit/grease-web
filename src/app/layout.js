@@ -1,6 +1,7 @@
 import { Old_Standard_TT } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
+import SimpleHeader from "@/components/SimpleHeader"
 import Footer from "@/components/Footer"
 
 export const metadata = {
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
 
       </head>
       <body>
-        <Header />
+        <SimpleHeader />
         {children}
         <Footer />
       </body>

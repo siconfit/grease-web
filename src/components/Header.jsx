@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import HomeButton from "./HomeButton";
 
 export default function Header() {
   const [isOpen, setOpen] = useState(false);
@@ -12,24 +13,13 @@ export default function Header() {
             <Link href="/nosotros">¿Quienes somos?</Link>
           </li>
           <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/mision-vision">Mision y Vision</Link>
-          </li>
-          <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/valores">Nuestros valores</Link>
-          </li>
-          <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
             <Link href="/servicios">Servicios</Link>
           </li>
-          {/* <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/">Productos</Link>
-          </li>
           <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/">Iniciar sesión</Link>
+            <Link href="/productos">Tienda Grease</Link>
           </li>
-          <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-            <Link href="/">Registrarse</Link>
-          </li> */}
         </ul>
+
         <div className="flex flex-col items-center justify-center space-y-3 py-5 lg:hidden">
           <button aria-label="header button" onClick={() => setOpen(!isOpen)}>
             <svg
@@ -54,22 +44,10 @@ export default function Header() {
                   <Link href="/nosotros">¿Quienes somos?</Link>
                 </li>
                 <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-                  <Link href="/mision-vision">Misión y visión</Link>
-                </li>
-                <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-                  <Link href="/valores">Nuestros valores</Link>
-                </li>
-                <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
                   <Link href="/servicios">Servicios</Link>
-                  {/* </li>
-                <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-                  <Link href="/">Productos</Link>
                 </li>
                 <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-                  <Link href="/">Iniciar sesión</Link>
-                </li>
-                <li className="rounded-full bg-[#19191A] px-5 py-2 text-[#c1a161] hover:bg-[#c1a161] hover:text-[#19191a]">
-                  <Link href="/">Registrarse</Link> */}
+                  <Link href="/productos">Tienda Grease</Link>
                 </li>
               </ul>
             </>

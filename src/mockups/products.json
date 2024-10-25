@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Aceite Esencial de Aromaterapia",
+    "price": "$15.99",
+    "state": "Disponible",
+    "image": "https://images.pexels.com/photos/1061142/pexels-photo-1061142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "short_description": "Aceite esencial puro para aromaterapia."
+  },
+  {
+    "id": "2",
+    "name": "Bata de Baño de Lujo",
+    "price": "$49.99",
+    "state": "Disponible",
+    "image": "https://images.pexels.com/photos/220383/pexels-photo-220383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "short_description": "Bata de baño suave y esponjosa para una comodidad máxima."
+  },
+  {
+    "id": "3",
+    "name": "Baño de Hierbas",
+    "price": "$12.99",
+    "state": "Disponible",
+    "image": "https://example.com/images/bath-soak.jpg",
+    "short_description": "Mezcla de hierbas naturales para un baño relajante."
+  },
+  {
+    "id": "4",
+    "name": "Mascarilla Facial de Spa",
+    "price": "$9.99",
+    "state": "Agotado",
+    "image": "https://example.com/images/facial-mask.jpg",
+    "short_description": "Mascarilla facial hidratante para una piel radiante."
+  },
+  {
+    "id": "5",
+    "name": "Exfoliante Corporal",
+    "price": "$18.99",
+    "state": "Disponible",
+    "image": "https://example.com/images/body-scrub.jpg",
+    "short_description": "Exfolia y rejuvenece suavemente la piel."
+  },
+  {
+    "id": "6",
+    "name": "Velas Aromáticas de Soja",
+    "price": "$24.99",
+    "state": "Disponible",
+    "image": "https://example.com/images/soy-candles.jpg",
+    "short_description": "Velas ecológicas de soja con aromas relajantes."
+  },
+  {
+    "id": "7",
+    "name": "Aceite de Masaje Orgánico",
+    "price": "$17.99",
+    "state": "Agotado",
+    "image": "https://example.com/images/massage-oil.jpg",
+    "short_description": "Aceite de masaje nutritivo hecho de ingredientes orgánicos."
+  },
+  {
+    "id": "8",
+    "name": "Zapatillas de Spa",
+    "price": "$14.99",
+    "state": "Disponible",
+    "image": "https://example.com/images/spa-slippers.jpg",
+    "short_description": "Zapatillas cómodas para una experiencia de spa en casa."
+  },
+  {
+    "id": "9",
+    "name": "Té de Hierbas Relajante",
+    "price": "$8.99",
+    "state": "Disponible",
+    "image": "https://example.com/images/herbal-tea.jpg",
+    "short_description": "Mezcla de té de hierbas sin cafeína para la relajación."
+  },
+  {
+    "id": "10",
+    "name": "Set de Regalo de Bombas de Baño",
+    "price": "$29.99",
+    "state": "Disponible",
+    "image": "https://example.com/images/bath-bombs.jpg",
+    "short_description": "Coloridas bombas de baño que efervescen y aromatizan el agua."
+  }
+]
