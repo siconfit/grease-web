@@ -1,76 +1,236 @@
-'use client'
-
-import { useState } from "react"
-
-export default function Home() {
-  const [visible, setVisible] = useState(false)
+function Estrellas() {
   return (
     <>
-      <div className="mt-8 py-16 sm:mt-20 relative bg-black">
-        <div className="w-full min-h-64 bg-black flex justify-center items-center">
-          <img src="/caraLogo.webp" alt="Emblema Rey y Reina" className="h-[200px] hidden lg:block" />
-          <img src="/logoSolo.webp" alt="Logo de Grease Nails Spa y Alta Peluqueria" />
-          <img src="/caraLogo.webp" alt="Emblema Rey y Reina" className="h-[200px] hidden md:block" />
-        </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
+      >
+        <path
+          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
+          fill="currentColor"
+          strokeWidth="0"
+        ></path>
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
+      >
+        <path
+          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
+          fill="currentColor"
+          strokeWidth="0"
+        ></path>
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
+      >
+        <path
+          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
+          fill="currentColor"
+          strokeWidth="0"
+        ></path>
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
+      >
+        <path
+          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
+          fill="currentColor"
+          strokeWidth="0"
+        ></path>
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
+      >
+        <path
+          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
+          fill="currentColor"
+          strokeWidth="0"
+        ></path>
+      </svg>
+    </>
+  );
+}
 
-      </div>
-      <div className="flex flex-col justify-center my-16 max-w-3xl mx-auto relative">
-        <p className="text-black text-2xl sm:text-3xl md:text-5xl text-center mx-5">
-          ¡Hola! Bienvenid@ a nuestro sitio web en donde encontrarás nuestros productos, servicios, ofertas y más
-        </p>
-
-        {
-          visible &&
-          <div className=" overflow-y-auto overflow-x-hidden fixed z-50 w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-            <div className="relative p-4 w-full max-w-max max-h-full">
-              <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                    Redes Sociales
-                  </h3>
-                  <button aria-label="social media button" type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" onClick={() => setVisible(false)}>
-                    <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                    </svg>
-                    <span className="sr-only">Close</span>
-                  </button>
-                </div>
-                {/* <!-- Modal body --> */}
-                <div className="p-4 md:p-5 space-x-4 flex">
-                  <div className="relative aspect-[9/10] w-16 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-64 sm:rounded-2xl dark:bg-zinc-800">
-                    <img
-                      src="instagramQR.png"
-                      alt="Instagram QR"
-                      className="absolute inset-0 h-full w-full object-contain"
-                    />
-                  </div>
-                  <div className="relative aspect-[9/10] w-16 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-64 sm:rounded-2xl dark:bg-zinc-800">
-                    <img
-                      src="tiktokQR.png"
-                      alt="TikTok QR"
-                      className="absolute inset-0 h-full w-full object-contain"
-                    />
-                  </div>
-                  <div className="relative aspect-[9/10] w-16 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-64 sm:rounded-2xl dark:bg-zinc-800">
-                    <img
-                      src="facebookQR.png"
-                      alt="Facebook QR"
-                      className="absolute inset-0 h-full w-full object-contain"
-                    />
-                  </div>
-                </div>
+export default function Home() {
+  return (
+    <section className="relative px-4 pt-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl py-16 lg:grid lg:grid-cols-12 lg:gap-8">
+        <div className="flex flex-col items-center justify-center lg:col-span-6 lg:items-start">
+          <div>
+            <span className="inline-block rounded-full bg-[#c1a161] px-4 py-2 font-medium text-[#373739] shadow-md">
+              Bienvenido a Grease
+            </span>
+          </div>
+          <h1 className="mt-5 text-center text-4xl text-[#373739] sm:text-5xl lg:max-w-none lg:text-left lg:text-6xl">
+            Relajate, renueva, resplancede
+          </h1>
+          <p className="mt-3 max-w-2xl text-center text-xl text-[#373739] lg:text-left">
+            Tu oasis de tranquilidad y rejuvenecimiento. Deja que nuestros
+            expertos te guíen hacia un estado de bienestar total, donde cada
+            visita es una experiencia única y revitalizante.
+          </p>
+          <div className="mt-8 flex flex-col items-center overflow-hidden sm:flex-row">
+            <a
+              className="group relative inline-flex items-center justify-center rounded-full bg-[#c1a161] px-8 py-3 text-xl font-medium text-[#373739] transition-colors duration-300 hover:bg-[#373739] hover:text-[#c1a161]"
+              href="#"
+            >
+              Concer más
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="ml-3 h-5 w-5 transition-transform duration-300 group-hover:translate-x-4"
+              >
+                <path d="M5 12l14 0"></path>
+                <path d="M15 16l4 -4"></path>
+                <path d="M15 8l4 4"></path>
+              </svg>
+            </a>
+            {/* <button className="relative mt-6 inline-flex items-center rounded-full bg-[#c1a161] px-8 py-3 text-xl font-medium text-[#373739] transition-colors duration-300 hover:bg-[#373739] hover:text-[#c1a161] sm:ml-6 sm:mt-0">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="mr-3 h-5 w-5"
+              >
+                <path
+                  d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z"
+                  fill="currentColor"
+                  strokeWidth="0"
+                ></path>
+              </svg>
+              Conoce más
+            </button> */}
+          </div>
+          <p className="mt-14 hidden font-medium uppercase tracking-wider text-black sm:block lg:hidden xl:block">
+            aqui encontraras nuestros servicios, productos, ofertas y más
+            {/* <span className="font-semibold text-[#c1a161]"> 100 parents</span> */}
+          </p>
+          <div className="mt-8 hidden flex-col overflow-hidden sm:mt-5 sm:flex sm:flex-row lg:hidden xl:flex">
+            <div className="flex flex-col items-center pb-5 sm:pb-0 sm:pr-10">
+              <div className="flex w-full justify-center">
+                <Estrellas />
               </div>
+              <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
+                servicios
+              </p>
+            </div>
+            <div className="flex flex-col items-center border-x-0 border-[#373739] px-5 sm:border-x-2 sm:px-10 sm:py-0">
+              <div className="flex w-full justify-center">
+                <Estrellas />
+              </div>
+              <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
+                productos
+              </p>
+            </div>
+            <div className="flex flex-col items-center pt-5 sm:pl-10 sm:pt-0">
+              <div className="flex w-full justify-center">
+                <Estrellas />
+              </div>
+              <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
+                precios
+              </p>
             </div>
           </div>
-        }
-
-        <div className="relative mx-auto bg-[#373739] text-white mt-6 p-3 rounded-lg cursor-pointer" onClick={() => setVisible(true)}>
-          <i className="fa fa-share-square-o">  Clic para conocer más</i>
+        </div>
+        <div className="mx-auto mt-16 flex w-full max-w-3xl flex-col justify-center lg:col-span-6 lg:mt-0 lg:max-w-none">
+          <div className="relative px-4">
+            <img
+              src="/logoSolo.webp"
+              alt="Logo Grease para landingpage"
+              className="h-auto w-full rounded-3xl"
+            />
+          </div>
         </div>
       </div>
-      <a href="https://api.whatsapp.com/send?phone=5930995421175&text=" className="fixed w-16 h-16 bottom-10 right-10 bg-[#25d366] text-white rounded-[50px] text-center text-3xl z-50" target="_blank">
-        <i className="fa fa-whatsapp mt-4"></i>
-      </a>
-    </>
+      <div className="-mt-10 mb-8 flex flex-col items-center sm:hidden  lg:flex xl:hidden">
+        <p className="mt-14 block font-medium uppercase tracking-wider text-[#373739]">
+          Rated 5 stars by over
+          <span className="font-semibold text-[#c1a161]"> 100 parents</span>
+        </p>
+        <div className="flex flex-col overflow-hidden sm:flex-row">
+          <div className="flex flex-col items-center pb-5 sm:pb-0 sm:pr-10">
+            <div className="flex w-full justify-center">
+              <Estrellas />
+            </div>
+            <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
+              servicios
+            </p>
+          </div>
+          <div className="flex flex-col items-center border-x-0 border-[#373739] px-5 sm:border-x-2 sm:px-10 sm:py-0">
+            <div className="flex w-full justify-center">
+              <Estrellas />
+            </div>
+            <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
+              productos
+            </p>
+          </div>
+          <div className="flex flex-col items-center pt-5 sm:pl-10 sm:pt-0">
+            <div className="flex w-full justify-center">
+              <Estrellas />
+            </div>
+            <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
+              precios
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
