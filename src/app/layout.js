@@ -1,6 +1,4 @@
-import { Old_Standard_TT } from "next/font/google"
 import "./globals.css"
-import Header from "@/components/Header"
 import SimpleHeader from "@/components/SimpleHeader"
 import Footer from "@/components/Footer"
 
@@ -17,17 +15,21 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         {/* <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" /> */}
-
         {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" /> */}
         <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet" />
-
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-
       </head>
       <body>
         <SimpleHeader />
         {children}
+        <a
+          href="https://api.whatsapp.com/send?phone=5930995421175&text="
+          className="fixed bottom-10 right-10 z-50 h-16 w-16 rounded-[50px] bg-[#25d366] text-center text-3xl text-white"
+          target="_blank"
+        >
+          <i className="fa fa-whatsapp mt-4"></i>
+        </a>
         <Footer />
       </body>
     </html>

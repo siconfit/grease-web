@@ -201,8 +201,8 @@ export default function Home() {
       </div>
       <div className="-mt-10 mb-8 flex flex-col items-center sm:hidden  lg:flex xl:hidden">
         <p className="mt-14 block font-medium uppercase tracking-wider text-[#373739]">
-          Rated 5 stars by over
-          <span className="font-semibold text-[#c1a161]"> 100 parents</span>
+          aqui encontraras nuestros servicios, productos, ofertas y más
+          {/* <span className="font-semibold text-[#c1a161]"> 100 parents</span> */}
         </p>
         <div className="flex flex-col overflow-hidden sm:flex-row">
           <div className="flex flex-col items-center pb-5 sm:pb-0 sm:pr-10">
