@@ -1,99 +1,4 @@
-function Estrellas() {
-  return (
-    <>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
-      >
-        <path
-          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
-          fill="currentColor"
-          strokeWidth="0"
-        ></path>
-      </svg>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
-      >
-        <path
-          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
-          fill="currentColor"
-          strokeWidth="0"
-        ></path>
-      </svg>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
-      >
-        <path
-          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
-          fill="currentColor"
-          strokeWidth="0"
-        ></path>
-      </svg>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
-      >
-        <path
-          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
-          fill="currentColor"
-          strokeWidth="0"
-        ></path>
-      </svg>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="w-5 text-yellow-400 lg:h-5 lg:w-5"
-      >
-        <path
-          d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z"
-          fill="currentColor"
-          strokeWidth="0"
-        ></path>
-      </svg>
-    </>
-  );
-}
+import Ranking from "@/components/Ranking"
 
 export default function Home() {
   return (
@@ -160,32 +65,16 @@ export default function Home() {
           </div>
           <p className="mt-14 hidden font-medium uppercase tracking-wider text-black sm:block lg:hidden xl:block">
             aqui encontraras nuestros servicios, productos, ofertas y más
-            {/* <span className="font-semibold text-[#c1a161]"> 100 parents</span> */}
           </p>
           <div className="mt-8 hidden flex-col overflow-hidden sm:mt-5 sm:flex sm:flex-row lg:hidden xl:flex">
             <div className="flex flex-col items-center pb-5 sm:pb-0 sm:pr-10">
-              <div className="flex w-full justify-center">
-                <Estrellas />
-              </div>
-              <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
-                servicios
-              </p>
+              <Ranking cantidad={5} subtitle={"servicios"} />
             </div>
             <div className="flex flex-col items-center border-x-0 border-[#373739] px-5 sm:border-x-2 sm:px-10 sm:py-0">
-              <div className="flex w-full justify-center">
-                <Estrellas />
-              </div>
-              <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
-                productos
-              </p>
+              <Ranking cantidad={5} subtitle={"productos"} />
             </div>
             <div className="flex flex-col items-center pt-5 sm:pl-10 sm:pt-0">
-              <div className="flex w-full justify-center">
-                <Estrellas />
-              </div>
-              <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
-                precios
-              </p>
+              <Ranking cantidad={5} subtitle={"precios"} />
             </div>
           </div>
         </div>
@@ -202,32 +91,16 @@ export default function Home() {
       <div className="-mt-10 mb-8 flex flex-col items-center sm:hidden  lg:flex xl:hidden">
         <p className="mt-14 block font-medium uppercase tracking-wider text-[#373739]">
           aqui encontraras nuestros servicios, productos, ofertas y más
-          {/* <span className="font-semibold text-[#c1a161]"> 100 parents</span> */}
         </p>
         <div className="flex flex-col overflow-hidden sm:flex-row">
           <div className="flex flex-col items-center pb-5 sm:pb-0 sm:pr-10">
-            <div className="flex w-full justify-center">
-              <Estrellas />
-            </div>
-            <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
-              servicios
-            </p>
+            <Ranking cantidad={5} subtitle={"servicios"} />
           </div>
           <div className="flex flex-col items-center border-x-0 border-[#373739] px-5 sm:border-x-2 sm:px-10 sm:py-0">
-            <div className="flex w-full justify-center">
-              <Estrellas />
-            </div>
-            <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
-              productos
-            </p>
+            <Ranking cantidad={5} subtitle={"productos"} />
           </div>
           <div className="flex flex-col items-center pt-5 sm:pl-10 sm:pt-0">
-            <div className="flex w-full justify-center">
-              <Estrellas />
-            </div>
-            <p className="mt-3 text-xs font-bold uppercase tracking-wide text-[#373739]">
-              precios
-            </p>
+            <Ranking cantidad={5} subtitle={"precios"} />
           </div>
         </div>
       </div>

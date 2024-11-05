@@ -1,8 +1,7 @@
 "use client";
-
 import { useState } from "react";
 
-function Mas() {
+export default function Mas() {
   const [visible, setVisible] = useState(false);
 
   return (
@@ -109,5 +108,3 @@ function Mas() {
     </>
   );
 }
-
-export default Mas;

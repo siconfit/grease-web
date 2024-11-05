@@ -1,4 +1,3 @@
-import HomeButton from "@/components/HomeButton";
 import MisionVision from "@/components/MisionVision";
 import Valores from "@/components/Valores";
 

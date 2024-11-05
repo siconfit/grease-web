@@ -73,12 +73,13 @@ export default function SimpleHeader() {
           </div>
 
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button
-              type="button"
-              className="relative rounded-full bg-gray-800 p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            <a
+              className="relative cursor-pointer rounded-full bg-gray-800 p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              href="https://maps.app.goo.gl/CK9TJPJC3wG2FNfU9"
+              target="_blank"
             >
-              https://maps.app.goo.gl/CK9TJPJC3wG2FNfU9
-            </button>
+              Encuentranos
+            </a>
           </div>
         </div>
       </div>
