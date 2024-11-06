@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Ranking from "@/components/Ranking"
 
 export default function Home() {
@@ -80,16 +81,19 @@ export default function Home() {
         </div>
         <div className="mx-auto mt-16 flex w-full max-w-3xl flex-col justify-center lg:col-span-6 lg:mt-0 lg:max-w-none">
           <div className="relative px-4">
-            <img
+            <Image
+              priority
               src="/logoSolo.webp"
               alt="Logo Grease para landingpage"
-              className="h-auto w-full rounded-3xl"
+              height={195}
+              width={500}
+              className="rounded-3xl h-auto w-full"
             />
           </div>
         </div>
       </div>
       <div className="-mt-10 mb-8 flex flex-col items-center sm:hidden  lg:flex xl:hidden">
-        <p className="mt-14 block font-medium uppercase tracking-wider text-[#373739]">
+        <p className="mt-14 block text-center font-medium uppercase tracking-wider text-[#373739]">
           aqui encontraras nuestros servicios, productos, ofertas y más
         </p>
         <div className="flex flex-col overflow-hidden sm:flex-row">

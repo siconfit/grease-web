@@ -1,4 +1,7 @@
 import "./globals.css"
+import { kameron } from "@/app/ui/fonts";
+
+import WhatsappButton from "@/components/WhatsappButton";
 import SimpleHeader from "@/components/SimpleHeader"
 import Footer from "@/components/Footer"
 
@@ -11,22 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-      </head>
-      <body>
+      <body className={`${kameron.className} antialiased`}>
         <SimpleHeader />
         {children}
-        <a
-          href="https://api.whatsapp.com/send?phone=5930995421175&text="
-          className="fixed bottom-10 right-10 z-50 h-16 w-16 rounded-[50px] bg-[#25d366] text-center text-3xl text-white"
-          target="_blank"
-        >
-          <i className="fa fa-whatsapp mt-4"></i>
-        </a>
+        <WhatsappButton />
         <Footer />
       </body>
     </html>

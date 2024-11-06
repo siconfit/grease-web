@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 const navigation = [
   { name: "¿Quienes somos?", href: "/nosotros" },
@@ -43,11 +44,18 @@ export default function SimpleHeader() {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
               <Link href={"/"}>
-                <img
+                <Image
+                  alt="Your Company"
+                  src="/caraLogo-removebg.png"
+                  width={330}
+                  height={298}
+                  className="h-8 w-auto transform transition-transform duration-700 hover:scale-125"
+                />
+                {/* <img
                   alt="Your Company"
                   src="/caraLogo-removebg.png"
                   className="h-8 w-auto transform transition-transform duration-700 hover:scale-125"
-                />
+                /> */}
               </Link>
             </div>
 
