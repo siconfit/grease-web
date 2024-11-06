@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 const datos = require("@/mockups/products.json");
 
-function Productos() {
+export default function Productos() {
   const [products, setProducts] = useState(datos);
   const [labelOption, setLabelOption] = useState("");
   const [categoryOption, setCategoryOption] = useState("");
@@ -271,5 +271,3 @@ function Productos() {
     </div>
   );
 }
-
-export default Productos;

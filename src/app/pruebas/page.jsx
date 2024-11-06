@@ -15,7 +15,7 @@ const DATA = [
   },
 ];
 
-export default function pruebas() {
+export default function Pruebas() {
   const [imagePosition, setImagePosition] = useState(0);
 
   const moveRight = () => {

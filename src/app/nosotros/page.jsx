@@ -1,7 +1,7 @@
 import MisionVision from "@/components/MisionVision";
 import Valores from "@/components/Valores";
 
-export default function sorbreNosotros() {
+export default function SorbreNosotros() {
   return (
     <>
       <div className="relative mx-auto mt-8 max-w-5xl py-16">

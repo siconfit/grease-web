@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-export default function servicios() {
+export default function Servicios() {
   return (
     <div className="relative mt-8 py-16">
       <div className="mx-4 max-w-5xl md:mx-auto">
