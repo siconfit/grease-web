@@ -2,7 +2,7 @@ export default function WhatsappButton() {
   return (
     <a
       href="https://api.whatsapp.com/send?phone=5930995421175&text="
-      className="fixed bottom-10 right-10 z-50 flex h-16 w-16 items-center justify-center rounded-[50px] bg-[#25d366] text-white"
+      className="fixed bottom-10 right-10 z-50 hidden h-16 w-16 items-center justify-center rounded-[50px] bg-[#25d366] text-white sm:flex"
       target="_blank"
     >
       <svg
