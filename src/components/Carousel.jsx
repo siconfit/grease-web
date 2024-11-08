@@ -43,7 +43,7 @@ export default function Carousel() {
         <div className="flex h-full w-full flex-col bg-gray-200">
           <div className="relative flex items-center justify-center">
             <button
-              className="absolute left-2 top-1/2 block rounded-full bg-gray-200 p-2 text-black"
+              className="absolute left-2 top-1/2 z-50 block rounded-full bg-gray-200 p-2 text-black"
               onClick={() => moveLeft()}
             >
               <div>{"<"}</div>
@@ -54,7 +54,7 @@ export default function Carousel() {
               className="h-full w-auto overflow-hidden bg-gray-200 object-contain transition-all duration-500 hover:scale-95 hover:shadow-2xl hover:shadow-black sm:h-96 md:h-[500px]"
             />
             <button
-              className="absolute right-2 top-1/2 block rounded-full bg-gray-200 p-2 text-black"
+              className="absolute right-2 top-1/2 z-50 block rounded-full bg-gray-200 p-2 text-black"
               onClick={() => moveRight()}
             >
               <div>{">"}</div>

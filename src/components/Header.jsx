@@ -6,10 +6,10 @@ import Link from "next/link";
 const navigation = [
   { name: "¿Quienes somos?", href: "/nosotros" },
   { name: "Servicios", href: "/servicios" },
-  { name: "Tienda Grease", href: "/productos" },
+  { name: "Tienda Grease", href: "/tienda" },
 ];
 
-export default function SimpleHeader() {
+export default function Header() {
   const router = usePathname();
   const [isOpen, setOpen] = useState(false);
 
@@ -51,11 +51,6 @@ export default function SimpleHeader() {
                   height={298}
                   className="h-8 w-auto transform transition-transform duration-700 hover:scale-125"
                 />
-                {/* <img
-                  alt="Your Company"
-                  src="/caraLogo-removebg.png"
-                  className="h-8 w-auto transform transition-transform duration-700 hover:scale-125"
-                /> */}
               </Link>
             </div>
 
@@ -82,11 +77,21 @@ export default function SimpleHeader() {
 
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <a
-              className="relative cursor-pointer rounded-full bg-gray-800 p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              className="relative flex cursor-pointer items-center rounded-full bg-gray-800 p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
               href="https://maps.app.goo.gl/CK9TJPJC3wG2FNfU9"
               target="_blank"
             >
-              Encuentranos
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-geo-alt-fill sm:mr-3"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+              </svg>
+              <h4 className="hidden sm:block">Encuentranos</h4>
             </a>
           </div>
         </div>

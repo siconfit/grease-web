@@ -1,6 +1,18 @@
 import MisionVision from "@/components/MisionVision";
 import Valores from "@/components/Valores";
 
+function ImageContainer({ imageUrl, altImage }) {
+  return (
+    <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
+      <img
+        src={imageUrl}
+        alt={altImage}
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+    </div>
+  );
+}
+
 export default function SorbreNosotros() {
   return (
     <>
@@ -11,41 +23,26 @@ export default function SorbreNosotros() {
           </h1>
           <div className="mt-16">
             <div className="-my-4 flex justify-center gap-5 py-4 sm:gap-8">
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
-                <img
-                  src="SERVICE1.jpeg"
-                  alt="Peluqueria Ibarra"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </div>
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
-                <img
-                  src="aux1.jpeg"
-                  alt="Uñas manos Ibarra"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </div>
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
-                <img
-                  src="aux2.jpeg"
-                  alt="Uñas pies Ibarra"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </div>
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
-                <img
-                  src="aux3.jpeg"
-                  alt="Facial Ibarra"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </div>
-              <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
-                <img
-                  src="SERVICE5.jpeg"
-                  alt="Masajes Ibarra"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </div>
+              <ImageContainer
+                imageUrl={"Servicios/servicio_estilismo.jpeg"}
+                altImage={"Grease Ibarra - Estilismo"}
+              />
+              <ImageContainer
+                imageUrl={"Servicios/servicio_facial.jpeg"}
+                altImage={"Grease Ibarra - Facial"}
+              />
+              <ImageContainer
+                imageUrl={"Servicios/servicio_manicura.jpeg"}
+                altImage={"Grease Ibarra - Manicura"}
+              />
+              <ImageContainer
+                imageUrl={"Servicios/servicio_masaje.jpeg"}
+                altImage={"Grease Ibarra - Masaje"}
+              />
+              <ImageContainer
+                imageUrl={"Servicios/servicio_pedicura.jpeg"}
+                altImage={"Grease Ibarra - Pedicura"}
+              />
             </div>
           </div>
           <div className="mx-10 mt-16 max-w-3xl rounded-[25px] bg-[#373739] p-8 shadow-xl lg:mx-auto ">
@@ -54,8 +51,7 @@ export default function SorbreNosotros() {
               la belleza, estamos convencidos de que los valores esenciales son:
               empatia, responsabilidad, calidad total, lo que buscamos ofrecer
               es satisfacer el deseo imperante de la estetica actual.
-            </p>
-            <p className=" text-wrap  text-center text-xl font-bold text-[#c1a161] md:text-2xl lg:text-3xl">
+              <br></br>
               En nuestra cartera de servicios te ofertamos tratmientos de
               belleza para manos y pies, cejas y pestañas, tratamientos
               capilares, masajes y faciales, esto para la poblacion de edades

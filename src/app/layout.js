@@ -2,7 +2,7 @@ import "./globals.css"
 import { kameron } from "@/app/ui/fonts";
 
 import WhatsappButton from "@/components/WhatsappButton";
-import SimpleHeader from "@/components/SimpleHeader"
+import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
 export const metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${kameron.className} antialiased`}>
-        <SimpleHeader />
+        <Header />
         {children}
         <WhatsappButton />
         <Footer />

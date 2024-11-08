@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "url": "Categorias/Producto_cabello.webp",
+    "alternativeText": "Productos para cabello"
+  },
+  {
+    "id": 2,
+    "url": "Categorias/Producto_maquillaje.png",
+    "alternativeText": "Productos de maquillaje"
+  },
+  {
+    "id": 3,
+    "url": "Categorias/Producto_piel.png",
+    "alternativeText": "Productos para cuidado de piel"
+  },
+  {
+    "id": 4,
+    "url": "Categorias/Producto_unias.webp",
+    "alternativeText": "Productos para uñas"
+  },
+  {
+    "id": 5,
+    "url": "Categorias/Producto_hombre.webp",
+    "alternativeText": "Productos para hombres"
+  }
+]
